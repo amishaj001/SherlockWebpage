@@ -1,16 +1,17 @@
 /*style.css*/
 body{
-background-color:#22FDD1;
-font-family: arial, helvetica, sans-serif;
-   font-size: 17px;
+background-color:#a9aecc;
+font-family: "courier new", helvetica, sans-serif;
+   font-size: 19px;
    text-align: right; 
 }
 h1{
 background-color:white;
  border-style: solid;
+ font-family:courier, helvetica, sans-serif;
     border-width: 0.3em;
     border-color: white;
-color:#22FDD1;
+color:#a9aecc;
  font-size: 2.5em;
  margin:0;
     padding: 40px;
@@ -27,7 +28,7 @@ color:white;
 font-size:1.5em;
 }
 
-.units{
+.seasons{
 font-size: 1.5em;
 margin:20px;
 color:white;

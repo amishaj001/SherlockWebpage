@@ -1,8 +1,77 @@
 <!DOCTYPE html>
 <html>
-<body>
+<head>
+    <meta charset="utf-8">
+    <title>Sherlock</title>
+	<link rel="stylesheet" href="style.css">
+  </head>
+  <body id="Background">
+    <h1 id="Header">All About Sherlock</h1>
+	<main>
+	<input id="buttonOne" type="button" value="Click Me!" onclick="colorChange();" />
+	<script>
+    function colorChange() {
+        document.getElementById("Background").style.background = "#C4176E";
+		document.getElementById("Header").style.color = "#C4176E";
+    }
+</script>
+	<p id="date"></p>
+<script>
+document.getElementById("date").innerHTML = Date();
+</script>
+			<div>
+		<strong>The Origins</strong><br/>
+		The show was created by <br> Steven Moffat and
+		Mark Gatiss.
+		<img src="https://upload.wikimedia.org/wikipedia/en/4/4d/Sherlock_titlecard.jpg"
+		style="width:500px;height:300px;float:right;margin-right:5px;border-style:solid;border-width:7px;border-color:white;">
+			</div>
+			
+			<div style="margin-right:550px;">
+		<strong>About This Show</strong><br/>
+		In this contemporary version of Sir Arthur Conan Doyle's detective stories,
+		Dr. John Watson is a war vet just home from Afghanistan. He meets the brilliant 
+		but eccentric Holmes when the latter, who serves as a consultant to Scotland Yard, 
+		advertises for a flatmate. Almost as soon as Watson moves into the Baker 
+		Street flat, they are embroiled in mysteries, and Sherlock's nemesis, Moriarty, 
+		appears to have a hand in the crimes.<br/>
+			</div>
+		
+			<div id="aboutPortfolio" style="margin-right:550px;"onclick="positionChange();">
+		<strong>The Creators</strong><br/>
+		Amisha Jain <br>
+		Meghna Kiran
+			</div>
+	
+	<script>
+    function positionChange() {
+		document.getElementById("aboutPortfolio").style.position = "relative";
+		document.getElementById("aboutPortfolio").style.top = "150px";
+    }
+	</script>
+	
+	<div id="caption" style="color:white;font-size:1.2em;position:absolute; bottom: 70px; margin-left:250px;">
 
-<h1> hi meghna!! </h1>
+	</div>
+	<div>
+	<img src="http://images.amcnetworks.com/bbcamerica.com/wp-content/uploads/2015/11/sherlock-1920.jpg"
+	id="Picture" style="width:600px;height:350px;float:left;margin-top:110px;margin-left:10px;margin-bottom:100px;
+	border-style:solid;border-width:7px;border-color:white;">
+	</div>
+	
+	
+	<h2 class="seasons" style="margin-top:40px;">Season 1</h2>
+	<p>This section will include links to work once completed.</p>
+	<h3 class="seasons">Season 2</h3>
+	<p>This section will include links to work once completed.</p>
+	<h4 class="seasons">Season 3</h4>
+	<p>This section will include links to work once completed.</p>
+	<h5 class="seasons">Christmas Special</h5>
+	<p>This section will include links to work once completed.</p>
+	<h6 class="seasons">Season 4</h6>
+	<p>This section will include links to work once completed.</p>
+	
+	</main>
+  </body>
 
-</body>
 </html>

@@ -10,9 +10,12 @@
     $connection = mysqli_connect($host, $user, $pass, $db, $port)or die(mysql_error());
 
 //And now to perform a simple query to make sure it's working
-    $query = "SELECT * FROM users";
+    $query = "SELECT * FROM SherlockCharacters";
     $result = mysqli_query($connection, $query);
 
     while ($row = mysqli_fetch_assoc($result)) {
-        echo "The ID is: " . $row['id'] . " and the Username is: " . $row['username'];
+        echo "The character's name is " . $row['CharacterName'];
+        echo "<br>";
+        echo " and the actor's name is " . $row['ActorName'];
+        echo "<br>";
     }
