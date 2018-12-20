@@ -1,5 +1,5 @@
 <?php
-		include_once 'SherlockHTML.html';
+		include_once 'index.html';
 		require_once 'phpTest.php';
 		$conn = mysqli_connect($host, $user, $pass, $db, $port);
 		if($conn->connect_error) die($conn->connect_error);
