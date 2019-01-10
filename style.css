@@ -1,4 +1,5 @@
 /*style.css*/
+/*External CSS Below*/
 body{
 background-color:#a9aecc;
 font-family: "courier new", helvetica, sans-serif;
@@ -24,16 +25,5 @@ margin: 20px;
 	text-align: left;
 	}
 
-.titles{
-color:white;
-font-size:1.5em;
-}
 
-
-
-.seasons{
-font-size: 1.7em;
-margin:20px;
-color:white;
-}
 

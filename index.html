@@ -8,18 +8,28 @@
   <body id="Background">
     <h1 id="Header">All About Sherlock</h1>
 	<main>
+		
+	<!--Javascript date and background color change functions below-->	
 	<input id="buttonOne" type="button" value="Click Me!" onclick="colorChange();" />
+	
 	<script>
     function colorChange() {
         document.getElementById("Background").style.background = "#b8ded8";
 		document.getElementById("Header").style.color = "#b8ded8";
     }
 	</script>
+	
+	<p id="date"></p>
+	<script>
+	document.getElementById("date").innerHTML = Date();
+	</script>
 
 			<div>
 		<strong class="titles">The Origins</strong><br/>
 		The show was created by <br> Steven Moffat and
 		Mark Gatiss.
+		
+		<!--Inline CSS  below-->
 		<img src="https://upload.wikimedia.org/wikipedia/en/4/4d/Sherlock_titlecard.jpg"
 		style="width:550px;height:350px;float:right;margin-right:5px;margin-left:5px;border-style:solid;border-width:7px;border-color:white;">
 			</div>
@@ -53,6 +63,8 @@
 	 style="width:600px;height:350px;float:left;margin-top:50px;margin-left:20px;margin-bottom:0px;
 	border-style:solid;border-width:7px;border-color:white;">
 	
+	<!--Multiple pages below-->
+	
 	<h2 class="seasons" style="margin-top:60px; margin-bottom:50px;">Season 1</h2>
 		<a href="Season 1.html" style="color:black; text-decoration: none; ">Where it all began. <br>
 		Click to find out how Sherlock<br> meets his best friend!</a>
@@ -76,6 +88,19 @@
 			John faces the worst tragedy imaginable and <br>Sherlock  faces demons past. Will they survive? <br>Click to find out! <br>   
 			</a>
 	
+	<!-- Internal CSS below -->		
+	<style>  			
+		.titles{
+		color:white;
+		font-size:1.5em;
+	}
+		.seasons{
+		font-size: 1.7em;
+		margin:20px;
+		color:white;
+	}
+	</style>
+	
 	</main>
 
 	<div style= "float:left; ">
@@ -90,7 +115,7 @@
 		</strong>
 	</div>	
 	
-	
+		<!-- Tranforming SQL into HTML below -->
 		<form action = 'phpUse.php' method = "post">
 		<select name = "myTest">
 			<option value = "CharacterName">Character Name</option>
